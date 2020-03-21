@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders correctly and generating a snapShot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "lightgrey",
+      "flexDirection": "row",
+      "height": 70,
+      "marginBottom": 20,
+      "padding": 10,
+      "width": 319.3,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "someImage",
+      }
+    }
+    style={
+      Object {
+        "alignSelf": "center",
+        "height": 55,
+        "justifyContent": "flex-start",
+        "width": 55,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "marginHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      said
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "grey",
+        }
+      }
+    >
+       by 
+    </Text>
+  </View>
+  <Text
+    allowFontScaling={false}
+    style={
+      Array [
+        Object {
+          "color": undefined,
+          "fontSize": 30,
+        },
+        Object {
+          "alignSelf": "center",
+          "position": "absolute",
+          "right": 10,
+        },
+        Object {
+          "fontFamily": "Ionicons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
